@@ -68,23 +68,33 @@ I am improving this by using Scanner to collect input, checking for blank studen
 
 ## 3. Testing and Demonstration
 
-I will test my corrected program using different registration scenarios to make sure that the requirements work correctly.
+I tested my corrected program using different registration scenarios to make sure the requirements worked correctly.
 
-The tests will include:
+### Test 1 - Full Workshop
+![img_1.png](img_1.png)
 
-| Test | What I am checking | Expected result |
+### Test 2 - Duplicate and Blank Student ID
+![img_2.png](img_2.png)
+
+
+I tested my corrected program using different registration scenarios to make sure that the requirements worked correctly.
+
+The tests included:
+
+| Test | What I checked | Result |
 |---|---|---|
-| Successful registration | Enter a new student ID when places are available | Registration accepted |
-| Duplicate registration | Enter the same student ID twice | Duplicate rejected |
-| Workshop full | Enter a new ID when the workshop has no places left | Registration rejected because the workshop is full |
-| Blank student ID | Enter an empty or blank ID | Registration rejected and counted |
-| Final report | Finish the registration attempts | Registered IDs, accepted attempts, rejected attempts and remaining places displayed |
+| Successful registration | Entered a new student ID when places were available | Passed |
+| Duplicate registration | Entered the same student ID twice | Passed |
+| Workshop full | Tried to register another student when the workshop was full | Passed |
+| Blank student ID | Entered a blank student ID | Passed |
+| Final report | Checked the registered IDs, accepted registrations, rejected attempts and remaining places | Passed |
+
+I also checked that rejected registrations did not change the HashSet and that duplicate IDs were still identified as duplicates even when the workshop was full.
+
+The screenshots above show examples of my program running and demonstrate the registration tests.
+
 
 I will also check that rejected registrations do not change the HashSet and that duplicate IDs are still identified as duplicates even when the workshop is full.
-
-**Evidence of testing:**
-
-I will add screenshots of my program running here after I have completed and tested the corrected code.
 
 ---
 
