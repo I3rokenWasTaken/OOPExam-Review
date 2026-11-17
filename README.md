@@ -93,9 +93,6 @@ I also checked that rejected registrations did not change the HashSet and that d
 
 The screenshots above show examples of my program running and demonstrate the registration tests.
 
-
-I will also check that rejected registrations do not change the HashSet and that duplicate IDs are still identified as duplicates even when the workshop is full.
-
 ---
 
 ## 4. Reflection
